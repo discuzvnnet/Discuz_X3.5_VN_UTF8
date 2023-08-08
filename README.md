@@ -1,6 +1,6 @@
 [<img src="https://raw.githubusercontent.com/discuzvnnet/Discuz_X3.5_VN_UTF8/v3.5/upload/static/image/common/logo.svg" width="250"/>](logo.svg)
 
-# Discuz! Thai - ระบบเว็บบอร์ดดิสคัส! ภาษาไทย สำหรับสร้างเว็บไซต์ระดับมืออาชีพ
+# Discuz! VN - Diễn Đàn Tiếng Việt để tạo một trang web chuyên nghiệp
 
 [![GitHub version](https://img.shields.io/github/v/release/jaideejung007/discuzth.svg)](https://github.com/jaideejung007/discuzth)
 [![download latest release](https://img.shields.io/badge/Discuz!%20X3.5-Download-success.svg)](https://github.com/jaideejung007/discuzth/releases/latest)
