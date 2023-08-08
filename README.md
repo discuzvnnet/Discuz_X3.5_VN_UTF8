@@ -10,11 +10,11 @@
 Discuz! Nó là một nền tảng xây dựng trang web tập trung vào việc xây dựng cộng đồng trực tuyến.
 
 # Điểm nổi bật quan trọng X3.5 #
-* สนับสนุน PHP8
-* สนับสนุน MYSQL8
-* สนับสนุน IPV6, สนับสนุนไลบรารี IP หลายตัว, สนับสนุนการเข้าถึง IP ในโหมด CDN ต่าง ๆ และสนับสนุนโหมดการเข้าถึงข้อมูลที่เพิ่มขึ้นจากโหมดปกติ
-* สนับสนุน UTF8MB4 (จงใช้อิโมจิกันโดยพลัน และสนับสนุนชุดอักขระเพิ่มเติม)
-* สนับสนุน InnoDB (ฐานข้อมูลคลาวด์มีการแนะนำให้ใช้งานอย่างแพร่หลาย)
+* Hỗ trợ PHP8
+* Hỗ trợ MYSQL8
+* Hỗ trợ IPV6, hỗ trợ nhiều thư viện IP, hỗ trợ truy cập IP ở nhiều chế độ CDN khác nhau và hỗ trợ chế độ truy cập dữ liệu nâng cao từ chế độ thông thường
+* Hỗ trợ UTF8MB4 (Sử dụng biểu tượng cảm xúc kịp thời. và hỗ trợ nhiều bộ ký tự hơn)
+* Hỗ trợ InnoDB (cơ sở dữ liệu đám mây được khuyến nghị rộng rãi)
 * สนับสนุน การสลับใช้งานฟังก์ชันโมดูลเต็มรูปแบบ (รวมไปถึงเว็บบอร์ด ต่อจากนี้ไป Discuz! X จะไม่ใช่แค่เว็บบอร์ดอย่างเดียว แต่เป็นระบบสร้างเว็บไซต์เต็มรูปแบบ)
 * สนับสนุน HTTPS ให้มีประสิทธิภาพกว่าเดิม
 * เพิ่ม ระบบชำระเงินใหม่ (ใช้ได้แค่ประเทศจีน ไม่มีไทย) มีชำระเงินด้วย WeChat, Alipay และ QQ Wallet ในตัว สนับสนุนการเชื่อมต่อการชำระเงินแพลตฟอร์มอื่น ๆ
