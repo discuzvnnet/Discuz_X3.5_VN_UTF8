@@ -5,7 +5,6 @@
 [![GitHub version](https://img.shields.io/github/v/release/jaideejung007/discuzth.svg)](https://github.com/jaideejung007/discuzth)
 [![download latest release](https://img.shields.io/badge/Discuz!%20X3.5-Download-success.svg)](https://github.com/jaideejung007/discuzth/releases/latest)
 ![GitHub all releases](https://img.shields.io/github/downloads/jaideejung007/discuzth/total?label=Total%20Downloads)
-[![SE]
 
 # คำแนะนำ #
 Discuz! เป็นแพลตฟอร์มสร้างเว็บไซต์ที่มุ่งเน้นไปที่การสร้างชุมชนออนไลน์ ช่วยให้เว็บไซต์สามารถให้บริการแบบครบ จบ ในที่เดียว
