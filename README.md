@@ -6,10 +6,10 @@
 [![download latest release](https://img.shields.io/badge/Discuz!%20X3.5-Download-success.svg)](https://github.com/jaideejung007/discuzth/releases/latest)
 ![GitHub all releases](https://img.shields.io/github/downloads/discuzvnnet/Discuz_X3.5_VN_UTF8/total?label=Total%20Downloads)
 
-# คำแนะนำ #
-Discuz! เป็นแพลตฟอร์มสร้างเว็บไซต์ที่มุ่งเน้นไปที่การสร้างชุมชนออนไลน์ ช่วยให้เว็บไซต์สามารถให้บริการแบบครบ จบ ในที่เดียว
+# Khuyến nghị #
+Discuz! Nó là một nền tảng xây dựng trang web tập trung vào việc xây dựng cộng đồng trực tuyến.
 
-# ไฮไลท์สำคัญ X3.5 #
+# Điểm nổi bật quan trọng X3.5 #
 * สนับสนุน PHP8
 * สนับสนุน MYSQL8
 * สนับสนุน IPV6, สนับสนุนไลบรารี IP หลายตัว, สนับสนุนการเข้าถึง IP ในโหมด CDN ต่าง ๆ และสนับสนุนโหมดการเข้าถึงข้อมูลที่เพิ่มขึ้นจากโหมดปกติ
