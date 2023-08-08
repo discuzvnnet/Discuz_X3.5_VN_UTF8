@@ -4,7 +4,6 @@
 
 [![GitHub version](https://img.shields.io/github/v/release/jaideejung007/discuzth.svg)](https://github.com/discuzvnnet/Discuz_X3.5_VN_UTF8)
 [![download latest release](https://img.shields.io/badge/Discuz!%20X3.5-Download-success.svg)](https://github.com/jaideejung007/discuzth/releases/latest)
-![GitHub all releases](https://img.shields.io/github/downloads/discuzvnnet/Discuz_X3.5_VN_UTF8/total?label=Total%20Downloads)
 
 # Khuyến nghị #
 Discuz! Nó là một nền tảng xây dựng trang web tập trung vào việc xây dựng cộng đồng trực tuyến.
