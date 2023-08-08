@@ -15,17 +15,14 @@ Discuz! Nó là một nền tảng xây dựng trang web tập trung vào việc
 * Hỗ trợ IPV6, hỗ trợ nhiều thư viện IP, hỗ trợ truy cập IP ở nhiều chế độ CDN khác nhau và hỗ trợ chế độ truy cập dữ liệu nâng cao từ chế độ thông thường
 * Hỗ trợ UTF8MB4 (Sử dụng biểu tượng cảm xúc kịp thời. và hỗ trợ nhiều bộ ký tự hơn)
 * Hỗ trợ InnoDB (cơ sở dữ liệu đám mây được khuyến nghị rộng rãi)
-* สนับสนุน การสลับใช้งานฟังก์ชันโมดูลเต็มรูปแบบ (รวมไปถึงเว็บบอร์ด ต่อจากนี้ไป Discuz! X จะไม่ใช่แค่เว็บบอร์ดอย่างเดียว แต่เป็นระบบสร้างเว็บไซต์เต็มรูปแบบ)
-* สนับสนุน HTTPS ให้มีประสิทธิภาพกว่าเดิม
-* เพิ่ม ระบบชำระเงินใหม่ (ใช้ได้แค่ประเทศจีน ไม่มีไทย) มีชำระเงินด้วย WeChat, Alipay และ QQ Wallet ในตัว สนับสนุนการเชื่อมต่อการชำระเงินแพลตฟอร์มอื่น ๆ
-* ปรับปรุง ฐานข้อมูลจังหวัด อำเภอ ตำบล (จาก ThepExcel ปรับปรุงปี 2565) พร้อมทั้งรายชื่อ 199 ประเทศและอีก 52 ดินแดน (จากสำนักงานราชบัณฑิตยสภา 29 มิถุนายน 2565)
-* ปรับปรุง ตัวแปลงไอพีเป็นชื่อประเทศ (GeoIP2) โดยใช้ไลบรารีจาก MaxMind's GeoLite2 City ซึ่งสามารถระบุความละเอียดตำแหน่งที่ตั้งของไอพีในระดับ เขต/อำเภอ จังหวัด และประเทศ
-* ปรับปรุง BBcode Spoiler โฉมใหม่
-* ปรับปรุง ระบบปกป้องขั้นพื้นฐานในตัว และสนับสนุนการเชื่อมต่อ SMS ของบุคคลที่สามโดยผ่านอินเทอร์เฟซ
-* ปรับปรุง โหมดรุ่นมือถือแบบใหม่ ไฉไลกว่าเดิม
-* ปรับปรุง ระบบหลังบ้าน (AdminCP) โฉมใหม่
-* ปรับปรุง UX/UI ต่าง ๆ ในเว็บเพื่อให้เข้ากับสภาพแวดล้อมของประเทศไทยทั้งหมด (เช่น การสลับตำแหน่งคำภาษาจีน ให้เป็นของภาษาไทยในส่วนต่าง ๆ ของเว็บ เป็นต้น)
-* ยกเลิก การใช้ Flash ถาวร และขอต้อนรับ HTML5 เต็มรูปแบบ
+* Hỗ trợ chuyển đổi chức năng mô-đun đầy đủ (Bao gồm các diễn đàn kể từ bây giờ Discuz! X sẽ không chỉ là diễn đàn. nhưng một hệ thống xây dựng trang web đầy đủ)
+* Hỗ trợ HTTPS để có hiệu suất tốt hơn
+* Thêm một hệ thống thanh toán mới (Chỉ dùng được ở Trung Quốc) Tích hợp thanh toán bằng WeChat, Alipay và QQ Wallet, hỗ trợ kết nối các nền tảng thanh toán khác.
+* Cải thiện hệ thống bảo vệ cơ bản tích hợp Và hỗ trợ kết nối SMS của bên thứ ba thông qua giao diện.
+*Cải thiện chế độ phiên bản di động mới, ngầu hơn trước.
+* Cải thiện giao diện mới của hệ thống back-end (AdminCP)
+* Nhiều cải tiến UX/UI trên web để phù hợp với tất cả các môi trường Tiếng Việt
+* Ngừng sử dụng Flash vĩnh viễn và chào mừng HTML5 đầy đủ
 
 ## การติดตั้งใหม่
 * ดาวน์โหลดไฟล์ล่าสุดที่นี่: https://github.com/jaideejung007/discuzth/releases/latest
