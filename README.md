@@ -5,9 +5,7 @@
 [![GitHub version](https://img.shields.io/github/v/release/jaideejung007/discuzth.svg)](https://github.com/jaideejung007/discuzth)
 [![download latest release](https://img.shields.io/badge/Discuz!%20X3.5-Download-success.svg)](https://github.com/jaideejung007/discuzth/releases/latest)
 ![GitHub all releases](https://img.shields.io/github/downloads/jaideejung007/discuzth/total?label=Total%20Downloads)
-[![SE](https://img.shields.io/discord/1065259119239495772?color=purple&label=Discord%20Discuz%21%20Thai%20Community&logoColor=purple)](https://discord.gg/faSzs3geux "Discord ของ Discuz! Thai Community อย่างเป็นทางการ")
-[![Discuz! Thai Support](https://img.shields.io/youtube/channel/subscribers/UC3bP2rWm_4rqKBj88smHDgg?label=Discuz%21%20Thai%20Support&style=social)](https://www.youtube.com/@discuzthaisupport)
-
+[![SE]
 
 # คำแนะนำ #
 Discuz! เป็นแพลตฟอร์มสร้างเว็บไซต์ที่มุ่งเน้นไปที่การสร้างชุมชนออนไลน์ ช่วยให้เว็บไซต์สามารถให้บริการแบบครบ จบ ในที่เดียว
