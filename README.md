@@ -1,4 +1,4 @@
-[<img src="https://raw.githubusercontent.com/jaideejung007/discuzth/v3.5/upload/static/image/common/logo.svg" width="250"/>](logo.svg)
+[<img src="https://raw.githubusercontent.com/discuzvnnet/Discuz_X3.5_VN_UTF8/v3.5/upload/static/image/common/logo.svg" width="250"/>](logo.svg)
 
 # Discuz! Thai - ระบบเว็บบอร์ดดิสคัส! ภาษาไทย สำหรับสร้างเว็บไซต์ระดับมืออาชีพ
 
