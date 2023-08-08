@@ -2,9 +2,9 @@
 
 # Discuz! VN - Diễn Đàn Tiếng Việt để tạo một trang web chuyên nghiệp
 
-[![GitHub version](https://img.shields.io/github/v/release/jaideejung007/discuzth.svg)](https://github.com/jaideejung007/discuzth)
+[![GitHub version](https://img.shields.io/github/v/release/jaideejung007/discuzth.svg)](https://github.com/discuzvnnet/Discuz_X3.5_VN_UTF8)
 [![download latest release](https://img.shields.io/badge/Discuz!%20X3.5-Download-success.svg)](https://github.com/jaideejung007/discuzth/releases/latest)
-![GitHub all releases](https://img.shields.io/github/downloads/jaideejung007/discuzth/total?label=Total%20Downloads)
+![GitHub all releases](https://img.shields.io/github/downloads/discuzvnnet/Discuz_X3.5_VN_UTF8/total?label=Total%20Downloads)
 
 # คำแนะนำ #
 Discuz! เป็นแพลตฟอร์มสร้างเว็บไซต์ที่มุ่งเน้นไปที่การสร้างชุมชนออนไลน์ ช่วยให้เว็บไซต์สามารถให้บริการแบบครบ จบ ในที่เดียว
