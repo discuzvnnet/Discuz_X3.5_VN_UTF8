@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Plugin]]></item>
+	<item id="Data">
+		<item id="plugin">
+			<item id="available"><![CDATA[1]]></item>
+			<item id="adminid"><![CDATA[1]]></item>
+			<item id="name"><![CDATA[Diễn đàn cầm tay]]></item>
+			<item id="identifier"><![CDATA[mobile]]></item>
+			<item id="description"><![CDATA[]]></item>
+			<item id="datatables"><![CDATA[]]></item>
+			<item id="directory"><![CDATA[mobile/]]></item>
+			<item id="copyright"><![CDATA[Comsenz Inc.]]></item>
+			<item id="version"><![CDATA[1.4.8]]></item>
+			<item id="__modules">
+				<item id="0">
+					<item id="name"><![CDATA[mobile]]></item>
+					<item id="menu"><![CDATA[]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[28]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="1">
+					<item id="name"><![CDATA[mobile]]></item>
+					<item id="menu"><![CDATA[]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[11]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+			</item>
+		</item>
+		<item id="version"><![CDATA[X2.5,X3,X3.1,X3.2,X3.3,X3.4,X3.5]]></item>
+		<item id="language">
+			<item id="scriptlang">
+				<item id="mobile_tip_ios"><![CDATA[<a href="https://discuz.dismall.com/mobile.php?platform=ios">Sử dụng diễn đàn cầm tay để truy cập trang web này và có trải nghiệm đọc tốt hơn</a>]]></item>
+				<item id="mobile_tip_android"><![CDATA[<a href="https://discuz.dismall.com/mobile.php?platform=android">Sử dụng diễn đàn cầm tay để truy cập trang web này và có trải nghiệm đọc tốt hơn</a>]]></item>
+				<item id="mobile_tip_wp7"><![CDATA[<a href="https://discuz.dismall.com/mobile.php?platform=windowsphone">Sử dụng diễn đàn cầm tay để truy cập trang web này và có trải nghiệm đọc tốt hơn</a>]]></item>
+				<item id="mobile_extend_newthread"><![CDATA[Phát hành mới nhất]]></item>
+				<item id="mobile_extend_newreply"><![CDATA[Trả lời mới nhất]]></item>
+				<item id="mobile_extend_digest"><![CDATA[Bản chất mới nhất]]></item>
+				<item id="mobile_extend_newpic"><![CDATA[Hình ảnh mới nhất]]></item>
+				<item id="mobile_fromtype_ios"><![CDATA[Từ: ứng dụng khách iPhone]]></item>
+				<item id="mobile_fromtype_android"><![CDATA[Từ: ứng dụng khách Android]]></item>
+				<item id="mobile_fromtype_windowsphone"><![CDATA[Từ: ứng dụng khách WindowsPhone]]></item>
+				<item id="mobile_post_author_visible"><![CDATA[Bài đăng này chỉ hiển thị cho tác giả]]></item>
+                <item id="mobilesign_formhash_failed"><![CDATA[Xác minh formhash không thành công hoặc không đăng nhập]]></item>
+                <item id="mobilesign_success"><![CDATA[Đăng nhập thành công]]></item>
+                <item id="mobilesign_failed"><![CDATA[Đã đăng nhập]]></item>
+			</item>
+			<item id="templatelang">
+				<item id="mobile_tips"><![CDATA[Nên sử dụng mã QR để thu thập và truy cập diễn đàn<br />Phương pháp sử dụng mã QR để lưu diễn đàn:<br />1. Sau khi cài đặt ứng dụng diễn đàn cầm tay, hãy nhấp để sử dụng mã QR để lưu diễn đàn.<br />2. Đặt mã QR vào tiêu điểm của máy ảnh để lưu thành công.]]></item>
+				<item id="username"><![CDATA[Tên tài khoản]]></item>
+				<item id="password"><![CDATA[Mật khẩu]]></item>
+				<item id="password_confirm"><![CDATA[Xác nhận mật khẩu]]></item>
+				<item id="email"><![CDATA[Email]]></item>
+				<item id="invite_code"><![CDATA[Mã mời]]></item>
+				<item id="register_message"><![CDATA[Lý do đăng ký]]></item>
+				<item id="seccode"><![CDATA[Mã xác nhận]]></item>
+				<item id="change_seccode"><![CDATA[Thay đổi]]></item>
+				<item id="secqaa"><![CDATA[Xác minh câu trả lời]]></item>
+				<item id="close"><![CDATA[Đóng]]></item>
+				<item id="admin_tips"><![CDATA[Kính gửi quản trị viên web, bạn có thể tải lên hình ảnh "mobile.png" (kích thước 178x178) trong thư mục gốc của chương trình Discuz! để đảm bảo rằng khách hàng của diễn đàn có thể lấy thành công logo diễn đàn]]></item>
+				<item id="iphone_alt"><![CDATA[Iphone-thích hợp cho điện thoại di động của Apple]]></item>
+				<item id="android_alt"><![CDATA[Android-phù hợp với điện thoại di động Samsung/HTC/Xiaomi với hệ thống Android]]></item>
+				<item id="windowsphone_alt"><![CDATA[WinodwsPhone-áp dụng cho điện thoại di động có hệ thống Microsoft WindowsPhone7]]></item>
+				<item id="discuzmobile_alt"><![CDATA[Ưu điểm của diễn đàn cầm tay]]></item>
+				<item id="tips_1"><![CDATA[Mọi lúc, mọi nơi, truy cập nhanh]]></item>
+				<item id="tips_1_desc"><![CDATA[Miễn là điện thoại di động của bạn nằm trong tay, bạn có thể nhanh chóng và dễ dàng đọc và đăng các bài đăng, gửi và nhận các tin nhắn ngắn với bạn bè trong diễn đàn.]]></item>
+				<item id="tips_2"><![CDATA[Cực kỳ tối ưu, đọc "dễ chịu"]]></item>
+				<item id="tips_2_desc"><![CDATA[Với giao diện diễn đàn độc đáo và thiết kế màn hình cảm ứng, diễn đàn di động cũng trở nên bắt mắt và dễ vận hành.]]></item>
+				<item id="tips_3"><![CDATA[Chụp và đăng, chia sẻ cuộc sống]]></item>
+				<item id="tips_3_desc"><![CDATA[Cho dù đó là ảnh phong cảnh hay tin tức, chụp ảnh và đăng chúng sẽ khiến bạn nổi bật trong diễn đàn.]]></item>
+				<item id="qr_desc"><![CDATA[Sau khi tải client về, lấy mã QR để truy cập nhanh trang web này:]]></item>
+				<item id="qr"><![CDATA[Mã QR]]></item>
+				<item id="wapmode"><![CDATA[Hoặc truy cập qua địa chỉ sau:]]></item>
+				<item id="qqregmode1"><![CDATA[Hoàn thiện thông tin tài khoản]]></item>
+				<item id="qqregmode2"><![CDATA[Liên kết một tài khoản hiện có]]></item>
+				<item id="register_validate_email_tips"><![CDATA[Đăng ký cần xác minh địa chỉ email, vui lòng đảm bảo điền địa chỉ email chính xác, vui lòng kiểm tra email kịp thời sau khi gửi.]]></item>
+				<item id="post_hide_reply_hidden"><![CDATA[Nếu bạn muốn xem nội dung ẩn, vui lòng trả lời bài đăng này]]></item>
+			</item>
+            <item id="installlang">
+                <item id="mobilesign"><![CDATA[Đăng nhập cộng đồng vi mô]]></item>
+            </item>
+		</item>
+		<item id="installfile"><![CDATA[install.php]]></item>
+		<item id="upgradefile"><![CDATA[upgrade.php]]></item>
+	</item>
+</root>

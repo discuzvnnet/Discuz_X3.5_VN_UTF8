@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Plugin]]></item>
+	<item id="Data">
+		<item id="plugin">
+			<item id="available"><![CDATA[1]]></item>
+			<item id="adminid"><![CDATA[1]]></item>
+			<item id="name"><![CDATA[my vest]]></item>
+			<item id="identifier"><![CDATA[myrepeats]]></item>
+			<item id="description"><![CDATA[]]></item>
+			<item id="datatables"><![CDATA[]]></item>
+			<item id="directory"><![CDATA[myrepeats/]]></item>
+			<item id="copyright"><![CDATA[Comsenz Inc.]]></item>
+			<item id="version"><![CDATA[2.4]]></item>
+			<item id="__modules">
+				<item id="0">
+					<item id="name"><![CDATA[memcp]]></item>
+					<item id="menu"><![CDATA[my vest]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[7]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+				</item>
+				<item id="1">
+					<item id="name"><![CDATA[myrepeats]]></item>
+					<item id="menu"><![CDATA[]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[11]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+				</item>
+				<item id="2">
+					<item id="name"><![CDATA[admincp]]></item>
+					<item id="menu"><![CDATA[Quản lý]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[3]]></item>
+					<item id="adminid"><![CDATA[1]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+				</item>
+			</item>
+		</item>
+		<item id="version"><![CDATA[X3.2,X3.3,X3.4,X3.5]]></item>
+		<item id="var">
+			<item id="0">
+				<item id="displayorder"><![CDATA[0]]></item>
+				<item id="title"><![CDATA[Vests allowed]]></item>
+				<item id="description"><![CDATA[Đặt nhóm người dùng nào có thể sử dụng chức năng chuyển đổi vest]]></item>
+				<item id="variable"><![CDATA[usergroups]]></item>
+				<item id="type"><![CDATA[groups]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+		</item>
+		<item id="intro"><![CDATA[Plugin này thuận tiện cho người dùng nhanh chóng chuyển đổi tự do giữa nhiều tài khoản của họ]]></item>
+		<item id="installfile"><![CDATA[install.php]]></item>
+		<item id="uninstallfile"><![CDATA[uninstall.php]]></item>
+		<item id="language">
+			<item id="scriptlang">
+				<item id="login_strike"><![CDATA[Quá nhiều mật khẩu sai, vui lòng đặt lại thông tin tài khoản vest và thử chuyển đổi lại sau 15 phút.]]></item>
+				<item id="login_succeed"><![CDATA[Bạn đã chuyển sang tài khoản {user} {comment}, bây giờ bạn sẽ được chuyển hướng đến trang trước khi chuyển đổi.]]></item>
+				<item id="login_succeed_rsnonexistence"><![CDATA[Bạn đã chuyển sang tài khoản {user} {comment}, nhưng tài khoản này chưa đặt {olduser} làm vest.<br /><a href="home.php?mod=spacecp&ac=plugin&id=myrepeats:memcp&username={olduserenc}" target="_blank">[ Đặt {olduser} làm áo khoác của tài khoản này ]</a><br /><a href="{referer}">[ Tới trang trước khi chuyển đổi ]</a>]]></item>
+				<item id="login_activation"><![CDATA[Tài khoản {user} chưa được kích hoạt trong diễn đàn này, bây giờ bạn sẽ được chuyển hướng đến trang kích hoạt tài khoản.]]></item>
+				<item id="login_invalid"><![CDATA[Chuyển đổi tài khoản không thành công, vui lòng đặt lại thông tin tài khoản, bạn có thể thử {loginperm} lần.]]></item>
+				<item id="login_password_invalid"><![CDATA[Chuyển đổi tài khoản không thành công, vui lòng đặt lại thông tin tài khoản.]]></item>
+				<item id="login_question_empty"><![CDATA[Vui lòng đặt lại câu hỏi bảo mật tài khoản và câu trả lời chính xác.]]></item>
+				<item id="login_question_invalid"><![CDATA[Lựa chọn câu hỏi bảo mật là sai, vui lòng đặt lại.]]></item>
+				<item id="user_nonexistence"><![CDATA[Thông tin tài khoản vest không hợp lệ, vui lòng đặt lại.]]></item>
+				<item id="user_locked"><![CDATA[Tài khoản vest này đã bị quản trị viên khóa, bạn không thể chuyển sang {user}, vui lòng liên hệ với quản trị viên.]]></item>
+				<item id="switch"><![CDATA[Vest]]></item>
+				<item id="memcp"><![CDATA[Set vest]]></item>
+				<item id="usergroup_disabled"><![CDATA[Nhóm người dùng của bạn không thể sử dụng chức năng này]]></item>
+				<item id="normal"><![CDATA[Bình thường]]></item>
+				<item id="lock"><![CDATA[Khóa]]></item>
+				<item id="username"><![CDATA[Tên tài khoản]]></item>
+				<item id="repeat"><![CDATA[Vest]]></item>
+				<item id="lastswitch"><![CDATA[Lần chuyển đổi cuối cùng]]></item>
+				<item id="status"><![CDATA[Trạng thái]]></item>
+				<item id="search"><![CDATA[Tìm kiếm]]></item>
+				<item id="repeats"><![CDATA[Tài khoản nào được giao]]></item>
+				<item id="repeatusers"><![CDATA[Vest]]></item>
+				<item id="statuss"><![CDATA[Bản ghi trạng thái]]></item>
+				<item id="viewall"><![CDATA[Xem tất cả]]></item>
+				<item id="deleted"><![CDATA[- đã xóa -]]></item>
+				<item id="adduser_succeed"><![CDATA[Tài khoản vest {usernamenew} đã được thêm thành công.]]></item>
+				<item id="updateuser_succeed"><![CDATA[Thông tin tài khoản vest đã được cập nhật thành công.]]></item>
+			</item>
+			<item id="templatelang">
+				<item id="myrepeats"><![CDATA[my vest]]></item>
+				<item id="adduser"><![CDATA[Thêm tài khoản vest]]></item>
+				<item id="add"><![CDATA[Thêm]]></item>
+				<item id="lastswitch"><![CDATA[Lần chuyển đổi cuối cùng]]></item>
+				<item id="nouse"><![CDATA[Không được sử dụng]]></item>
+				<item id="locked"><![CDATA[Bị khóa bởi quản trị viên]]></item>
+				<item id="comment"><![CDATA[Nhận xét]]></item>
+				<item id="commentrow"><![CDATA[Nhận xét]]></item>
+				<item id="username"><![CDATA[Tên tài khoản]]></item>
+				<item id="password"><![CDATA[Mật khẩu]]></item>
+				<item id="security_question"><![CDATA[Câu hỏi bảo mật]]></item>
+				<item id="security_question_1"><![CDATA[Tên của mẹ]]></item>
+				<item id="security_question_2"><![CDATA[Tên của ông nội]]></item>
+				<item id="security_question_3"><![CDATA[Thành phố nơi cha sinh ra]]></item>
+				<item id="security_question_4"><![CDATA[Tên của một trong những giáo viên của bạn]]></item>
+				<item id="security_question_5"><![CDATA[Số kiểu máy tính cá nhân của bạn]]></item>
+				<item id="security_question_6"><![CDATA[Tên nhà hàng yêu thích của bạn]]></item>
+				<item id="security_question_7"><![CDATA[Bốn số cuối của bằng lái xe]]></item>
+				<item id="security_answer"><![CDATA[Trả lời]]></item>
+				<item id="delete_check"><![CDATA[Xóa?]]></item>
+				<item id="switch_title"><![CDATA[Xin vui lòng nhập mật khẩu]]></item>
+				<item id="switch_tips"><![CDATA[Bạn đang chuyển sang tài khoản này lần đầu tiên, vui lòng nhập mật khẩu]]></item>
+				<item id="confirm"><![CDATA[Ok]]></item>
+				<item id="select_rrepeats"><![CDATA[Chọn vest]]></item>				
+			</item>
+		</item>
+	</item>
+</root>
