@@ -70,15 +70,3 @@ INSERT INTO `pre_common_district` (`id`, `name`, `level`, `upid`, `usetype`) VAL
 (63, 'Yên Bái', 1, 64, 0),
 (64, 'Việt Nam', 0, 0, 3),
 (65, 'Khác', 0, 0, 3);
-INSERT INTO `pre_common_district` (`id`, `name`, `level`, `upid`, `usetype`) VALUES
-(66, 'Long Xuyên', 2, 1, 0),
-(67, 'Châu Đốc', 2, 1, 0),
-(68, 'An Phú', 2, 1, 0),
-(69, 'Tân Châu', 2, 1, 0),
-(70, 'Phú Tân', 2, 1, 0),
-(71, 'Châu Phú', 2, 1, 0),
-(72, 'Tịnh Biên', 2, 1, 0),
-(73, 'Tri Tôn', 2, 1, 0),
-(74, 'Châu Thành', 2, 1, 0),
-(75, 'Chợ Mới', 2, 1, 0),
-(76, 'Thoại Sơn', 2, 1, 0);
