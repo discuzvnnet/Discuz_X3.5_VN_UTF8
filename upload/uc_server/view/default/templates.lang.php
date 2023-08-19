@@ -390,8 +390,8 @@ $languages = array(
 
 	'delete' => 'Xóa',
 	'email' => 'Email',
-	'secmobicc' => 'Điện thoại di động an toàn Mã vùng quốc tế',
-	'secmobile' => 'Số điện thoại an toàn',
+	'secmobicc' => 'Mã vùng quốc tế',
+	'secmobile' => 'Số điện thoại',
 	'user_list' => 'Danh sách người dùng',
 	'user_add_succeed' => 'Đã thêm người dùng thành công.',
 	'user_delete_confirm' => 'Không thể hoàn tác thao tác này. Bạn có chắc chắn muốn xóa những người dùng này không?',
