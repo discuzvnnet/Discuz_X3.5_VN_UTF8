@@ -677,9 +677,11 @@ a.flw_readfull {color: var(--dz-BG-2);}
 
 /*----- 通用文字类列表 -----*/
 .txtlist {background-color:var(--dz-BG-0);overflow:hidden}
-.txtlist .mtit {font-size:16px;height:40px;line-height:40px;font-weight:400;padding:0 15px;border-bottom:1px solid var(--dz-BOR-ed);overflow:hidden}
+.txtlist .mtit {font-size:16px;text-transform:lowercase;height:40px;line-height:40px;font-weight:400;padding:0 15px;border-bottom:1px solid var(--dz-BOR-ed);overflow:hidden}
+.txtlist .mtit:first-letter {text-transform: uppercase}
 .txtlist .mtit em {margin-left:5px;font-size:12px;color:var(--dz-FC-999)}
 .txtlist .mtit .ytxt {float:right;margin-top:9px;margin-left:8px;padding:0 5px;height:20px;line-height:20px;font-size:12px;color:var(--dz-FC-color);background-color:var(--dz-BG-5);border:1px solid var(--dz-BOR-ed);border-radius:4px;position:relative}
+.txtlist .mtit .ytxt:first-letter {text-transform: uppercase}
 .txtlist ul {padding:0 15px;overflow:hidden}
 .txtlist ul li {border-top:1px solid var(--dz-BOR-ed);height:40px;line-height:40px;font-size:14px;overflow:hidden}
 .txtlist ul li:first-child {border-top:none}
@@ -708,7 +710,7 @@ a.flw_readfull {color: var(--dz-BG-2);}
 .dhnav_box {background-color:var(--dz-BG-0);border-bottom:1px solid var(--dz-BOR-ed);overflow:hidden}
 #dhnav_li {width:100%;height:40px;text-align:center;white-space:nowrap}
 #dhnav_li li {float:left;width:auto;height:40px;text-align:center;overflow:hidden;color:var(--dz-FC-999);position:relative}
-#dhnav_li li a {display:inline-block;font-size:15px;line-height:38px;margin:0 15px}
+#dhnav_li li a {display:inline-block;font-size:15px;line-height:38px;margin:0 3px}
 #dhnav_li li.mon {height:38px;border-bottom:2px solid var(--dz-BG-color)}
 #dhnav_li li.mon a {color:var(--dz-FC-color);font-weight:400}
 #dhnav_li .swiper-wrappers li {width:25%}
@@ -718,7 +720,8 @@ a.flw_readfull {color: var(--dz-BG-2);}
 .dhnavs_box {background-color:var(--dz-BG-0);border-bottom:1px solid var(--dz-BOR-ed);overflow:hidden}
 #dhnavs_li {width:100%;height:40px;text-align:center;white-space:nowrap}
 #dhnavs_li li {float:left;width:auto;text-align:center;overflow:hidden;color:var(--dz-FC-999);position:relative}
-#dhnavs_li li a {display:inline-block;font-size:14px;height:24px;line-height:24px;margin:8px 10px;padding:0 6px;color:var(--dz-FC-999);border-radius:4px}
+#dhnavs_li li a {display:inline-block;font-size:14px;text-transform:lowercase;height:24px;line-height:24px;margin:8px 8px;padding:0 6px;color:var(--dz-FC-999);border-radius:4px}
+#dhnavs_li li a:first-letter {text-transform: uppercase}
 #dhnavs_li li span {color:var(--dz-FC-ddd)}
 #dhnavs_li li.mon a {background-color:var(--dz-BG-color);color:var(--dz-FC-fff)}
 
@@ -882,9 +885,9 @@ body.pg_logging, body.pg_register {background-color:var(--dz-BG-0)}
 
 /*----- 通用发布输入框相关 -----*/
 .post_box {background-color:var(--dz-BG-0);overflow:hidden}
-.post_box li.mli {height:30px;line-height:30px;padding:5px 15px;font-size:16px;border-bottom:1px solid var(--dz-BOR-ed);overflow:hidden;position:relative}
+.post_box li.mli {height:30px;line-height:20px;padding:5px 15px;font-size:16px;border-bottom:1px solid var(--dz-BOR-ed);overflow:hidden;position:relative}
 .post_box li.flex-half {padding:5px 0px;}
-.post_box li.mtit {height:20px;line-height:20px;font-size:12px;padding-top:10px;color:var(--dz-FC-999)}
+.post_box li.mtit {height:36px;line-height:20px;font-size:12px;padding-top:10px;color:var(--dz-FC-999)}
 .post_box li.mtext {height:auto;line-height:30px;padding:10px 15px;font-size:16px;border-bottom:1px solid var(--dz-BOR-ed);overflow:hidden}
 .post_box li.mli .input-append {position:absolute;right:15px;color:#495057;font-size:1rem;}
 .post_box .sort_sel {width:100%;background:url('touch/arrow.svg') no-repeat right center;background-size:16px 16px;padding-left:14px;height:30px;line-height:30px;font-size:16px;border:none;color:graytext;appearance:none;-moz-appearance:none;-webkit-appearance:none;overflow:hidden}
@@ -1123,7 +1126,7 @@ body.pg_logging, body.pg_register {background-color:var(--dz-BG-0)}
 .tfm caption, .tfm th, .tfm td { vertical-align: top; padding: 7px 0; line-height: 28px; }
 .tfm caption h2 { font-size: 16px; }
 .vt th, .vt td { vertical-align: top; }
-.tfm th {padding-right: 5px; width: 70px; }
+.tfm th {padding-right: 5px; width: 118px; }
 .tfm th .rq { float: right; font-size: 14px; }
 .tfm .pt, .tfm .px { width: 97%; line-height: 28px; border:1px solid var(--dz-BOR-ed); }
 .tfm .pt { min-height: 65px; }
