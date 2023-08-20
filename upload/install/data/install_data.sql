@@ -69,8 +69,8 @@ INSERT INTO pre_common_member_profile_setting VALUES('birthmonth', 1, 0, 0, 'Th�
 INSERT INTO pre_common_member_profile_setting VALUES('birthday', 1, 0, 0, 'Ngày sinh', '', 0, 0, 0, 0, 0, 0, 0, 'select', 0, '', '');
 INSERT INTO pre_common_member_profile_setting VALUES('constellation', 1, 1, 0, 'Chòm sao', 'Chòm sao(Tự động tính toán theo ngày sinh)', 0, 0, 0, 0, 0, 0, 0, 'text', 0, '', '');
 INSERT INTO pre_common_member_profile_setting VALUES('zodiac', 1, 1, 0, 'Cung hoàng đạo', 'Cung hoàng đạo(Tự động tính toán theo ngày sinh)', 0, 0, 0, 0, 0, 0, 0, 'text', 0, '', '');
-INSERT INTO pre_common_member_profile_setting VALUES('telephone', 1, 1, 0, 'Điện thoại nhà', '', 0, 0, 0, 0, 0, 0, 0, 'text', 0, '', '');
-INSERT INTO pre_common_member_profile_setting VALUES('mobile', 1, 1, 0, 'Điện thoại di động', '', 0, 0, 0, 0, 0, 0, 0, 'text', 0, '', '');
+INSERT INTO pre_common_member_profile_setting VALUES('telephone', 1, 1, 0, 'Máy bàn', '', 0, 0, 0, 0, 0, 0, 0, 'text', 0, '', '');
+INSERT INTO pre_common_member_profile_setting VALUES('mobile', 1, 1, 0, 'Di động', '', 0, 0, 0, 0, 0, 0, 0, 'text', 0, '', '');
 INSERT INTO pre_common_member_profile_setting VALUES('idcardtype', 1, 1, 0, 'Loại giấy tờ', 'CMND Hộ chiếu Thẻ SV', 0, 0, 0, 0, 0, 0, 0, 'select', 0, 'CMND\nHộ chiếu\nThẻ SV', '');
 INSERT INTO pre_common_member_profile_setting VALUES('idcard', 1, 1, 0, 'Số ID', '', 0, 0, 0, 0, 0, 0, 0, 'text', 0, '', '');
 INSERT INTO pre_common_member_profile_setting VALUES('address', 1, 1, 0, 'Địa chỉ', '', 0, 0, 0, 0, 0, 0, 0, 'text', 0, '', '');
@@ -93,8 +93,8 @@ INSERT INTO pre_common_member_profile_setting VALUES('company', 1, 0, 0, 'Công 
 INSERT INTO pre_common_member_profile_setting VALUES('occupation', 1, 0, 0, 'Nghề nghiệp', '', 0, 0, 0, 0, 0, 0, 0, 'text', 0, '', '');
 INSERT INTO pre_common_member_profile_setting VALUES('position', 1, 0, 0, 'Chức vụ', '', 0, 0, 0, 0, 0, 0, 0, 'text', 0, '', '');
 INSERT INTO pre_common_member_profile_setting VALUES('revenue', 1, 1, 0, 'Thu nhập', 'VND', 0, 0, 0, 0, 0, 0, 0, 'text', 0, '', '');
-INSERT INTO pre_common_member_profile_setting VALUES('affectivestatus', 1, 1, 0, 'Tình trạng hôn nhân', '', 0, 0, 0, 0, 0, 0, 0, 'text', 0, '', '');
-INSERT INTO pre_common_member_profile_setting VALUES('lookingfor', 1, 0, 0, 'Quan tâm đến', 'Quan tâm đến', 0, 0, 0, 0, 0, 0, 0, 'text', 0, '', '');
+INSERT INTO pre_common_member_profile_setting VALUES('affectivestatus', 1, 1, 0, 'Hôn nhân', '', 0, 0, 0, 0, 0, 0, 0, 'text', 0, '', '');
+INSERT INTO pre_common_member_profile_setting VALUES('lookingfor', 1, 0, 0, 'Quan tâm', 'Quan tâm', 0, 0, 0, 0, 0, 0, 0, 'text', 0, '', '');
 INSERT INTO pre_common_member_profile_setting VALUES('bloodtype', 1, 1, 0, 'Nhóm máu', '', 0, 0, 0, 0, 0, 0, 0, 'select', 0, 'A\nB\nAB\nO\nkhác', '');
 INSERT INTO pre_common_member_profile_setting VALUES('height', 0, 1, 0, 'Chiều cao', 'Đơn vị là cm', 0, 0, 0, 0, 0, 0, 0, 'text', 0, '', '');
 INSERT INTO pre_common_member_profile_setting VALUES('weight', 0, 1, 0, 'Cân nặng', 'Đơn vị là kg', 0, 0, 0, 0, 0, 0, 0, 'text', 0, '', '');
