@@ -321,7 +321,7 @@ $lang = array
 	'plugin_memo' => 'Bạn có <span class="xi1">{number}</span> nâng cấp ứng dụng',
 	'plugin_link' => 'Cập nhật',
 
-	'seccode' => 'Mã xác nhận',
+	'seccode' => 'Captcha',
 	'seccode_update' => 'Mã khác',
 	'seccode_player' => '<span style="padding:2px"><img border="0" style="vertical-align:middle" src="'.STATICURL.'image/common/seccodeplayer.gif" /> <a href="javascript:;" id="seccodeplay_{idhash}">Đọc mã xác nhận</a></span>',
 	'secqaa' => 'Câu hỏi an toàn',
