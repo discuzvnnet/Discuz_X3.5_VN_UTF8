@@ -372,6 +372,8 @@ template/default/touch/forum/viewthread.htm *<!--{hook/viewthread_postbottom_mob
 template/default/touch/forum/viewthread.htm *<!--{hook/viewthread_bottom_mobile}-->
 template/default/touch/group/group.htm *<!--{hook/forumdisplay_top_mobile}-->
 template/default/touch/group/group_list.htm *<!--{hook/forumdisplay_thread_mobile $key}-->
+template/default/touch/home/spacecp_avatar.htm *<!--{hook/spacecp_avatar_top_mobile}-->
+template/default/touch/home/spacecp_avatar.htm *<!--{hook/spacecp_avatar_bottom}-->
 template/default/touch/home/spacecp_blog.htm *<!--{hook/spacecp_blog_top_mobile}-->
 template/default/touch/home/spacecp_blog.htm *<!--{hook/spacecp_blog_middle_mobile}-->
 template/default/touch/home/spacecp_blog.htm *<!--{hook/spacecp_blog_bottom_mobile}-->

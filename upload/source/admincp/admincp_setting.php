@@ -1280,7 +1280,9 @@ EOF;
 			array(604800, $lang['7_day']),
 			array(1209600, $lang['14_day']),
 			array(2592000, $lang['30_day']),
-			array(7776000, $lang['90_day'])
+			array(7776000, $lang['90_day']),
+			array(15552000, $lang['180_day']),
+			array(31536000, $lang['365_day'])
 		);
 		showsetting('setting_functions_guide_hotdt', array('settingnew[guide][hotdt]', $dtarray), $setting['guide']['hotdt'], 'select');
 		showsetting('setting_functions_guide_digestdt', array('settingnew[guide][digestdt]', $dtarray), $setting['guide']['digestdt'], 'select');
@@ -2576,7 +2578,7 @@ EOT;
 				unset($settingnew['report_reward']);
 			}
 			if($settingnew['report_reward']['min'] == $settingnew['report_reward']['max']) {
-				$settingnew['report_reward'] = array('min' => '', 'max' => '');
+				$settingnew['report_reward'] = array('min' => 0, 'max' => 0);
 			}
 			$settingnew['report_reward'] = serialize($settingnew['report_reward']);
 		}

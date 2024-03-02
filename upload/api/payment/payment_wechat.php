@@ -524,7 +524,7 @@ class payment_wechat extends payment_base {
 		return false;
 	}
 
-	private function wechat_request($api, $data = null) {
+	private function wechat_request($api, $data = array()) {
 		$client = filesock::open(array(
 			'url' => $api,
 			'method' => 'POST',
