@@ -89,7 +89,7 @@ $lang = array
 	'trade_syspayseller' => 'Người mua đã nhận được hàng, chờ người bán nhận tiền',
 	'trade_finished' => '<font color="green">Giao dịch kết thúc thành công</font>',
 	'trade_closed' => '<font color="gray">Giao dịch đóng(chưa hoàn thành)</font>',
-	'trade_waitselleragree' => 'Đang chờ cho người bán đồng ý',
+	'trade_waitselleragree'  => 'Đang chờ cho người bán đồng ý',
 	'trade_sellerrefusebuyer' => 'Người bán từ chối yêu cầu người mua, đang chờ người mua thay đổi yêu cầu',
 	'trade_waitbuyerreturn' => 'Bên bán đồng ý hoàn lại tiền, chờ đợi cho người mua trả lại',
 	'trade_waitsellerconfirmgoods' => 'Chờ đợi để nhận hàng hoá bán',

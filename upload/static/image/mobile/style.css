@@ -572,6 +572,8 @@ select {-moz-appearance:none;}
 .magic_log_list .dt { background: var(--dz-BG-0); border-top: 1px solid var(--dz-BOR-ed); }
 .magic_log_list .dt th, .magic_log_list .dt td { padding: 11px 10px 9px 10px; height: 24px; line-height: 24px; font-size: 13px; overflow: hidden; }
 .medal_tip_box ul { padding: 12px 15px; }
+.medal_tip_box ul input.px.p_fre{ text-align:center;}
+.medal_tip_box ul p {margin: 2px 0;line-height: 22px;overflow: hidden;}
 .medal_tip_box ul li { display: flex; position: relative; line-height: 22px; padding: 8px 12px; background: var(--dz-BG-0); font-size: 15px; overflow: hidden; }
 .medal_tip_box ul li span {display: flex; flex-shrink: 0; margin-right: 15px; color: var(--dz-FC-999);}
 .medal_tip_input { display: flex; width: 100%; color: var(--dz-FC-333); border-bottom: 1px solid var(--dz-BOR-ed); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
@@ -677,11 +679,9 @@ a.flw_readfull {color: var(--dz-BG-2);}
 
 /*----- 通用文字类列表 -----*/
 .txtlist {background-color:var(--dz-BG-0);overflow:hidden}
-.txtlist .mtit {font-size:16px;text-transform:lowercase;height:40px;line-height:40px;font-weight:400;padding:0 15px;border-bottom:1px solid var(--dz-BOR-ed);overflow:hidden}
-.txtlist .mtit:first-letter {text-transform: uppercase}
+.txtlist .mtit {font-size:16px;height:40px;line-height:40px;font-weight:400;padding:0 15px;border-bottom:1px solid var(--dz-BOR-ed);overflow:hidden}
 .txtlist .mtit em {margin-left:5px;font-size:12px;color:var(--dz-FC-999)}
 .txtlist .mtit .ytxt {float:right;margin-top:9px;margin-left:8px;padding:0 5px;height:20px;line-height:20px;font-size:12px;color:var(--dz-FC-color);background-color:var(--dz-BG-5);border:1px solid var(--dz-BOR-ed);border-radius:4px;position:relative}
-.txtlist .mtit .ytxt:first-letter {text-transform: uppercase}
 .txtlist ul {padding:0 15px;overflow:hidden}
 .txtlist ul li {border-top:1px solid var(--dz-BOR-ed);height:40px;line-height:40px;font-size:14px;overflow:hidden}
 .txtlist ul li:first-child {border-top:none}
@@ -710,7 +710,7 @@ a.flw_readfull {color: var(--dz-BG-2);}
 .dhnav_box {background-color:var(--dz-BG-0);border-bottom:1px solid var(--dz-BOR-ed);overflow:hidden}
 #dhnav_li {width:100%;height:40px;text-align:center;white-space:nowrap}
 #dhnav_li li {float:left;width:auto;height:40px;text-align:center;overflow:hidden;color:var(--dz-FC-999);position:relative}
-#dhnav_li li a {display:inline-block;font-size:15px;line-height:38px;margin:0 3px}
+#dhnav_li li a {display:inline-block;font-size:15px;line-height:38px;margin:0 15px}
 #dhnav_li li.mon {height:38px;border-bottom:2px solid var(--dz-BG-color)}
 #dhnav_li li.mon a {color:var(--dz-FC-color);font-weight:400}
 #dhnav_li .swiper-wrappers li {width:25%}
@@ -720,8 +720,7 @@ a.flw_readfull {color: var(--dz-BG-2);}
 .dhnavs_box {background-color:var(--dz-BG-0);border-bottom:1px solid var(--dz-BOR-ed);overflow:hidden}
 #dhnavs_li {width:100%;height:40px;text-align:center;white-space:nowrap}
 #dhnavs_li li {float:left;width:auto;text-align:center;overflow:hidden;color:var(--dz-FC-999);position:relative}
-#dhnavs_li li a {display:inline-block;font-size:14px;text-transform:lowercase;height:24px;line-height:24px;margin:8px 8px;padding:0 6px;color:var(--dz-FC-999);border-radius:4px}
-#dhnavs_li li a:first-letter {text-transform: uppercase}
+#dhnavs_li li a {display:inline-block;font-size:14px;height:24px;line-height:24px;margin:8px 10px;padding:0 6px;color:var(--dz-FC-999);border-radius:4px}
 #dhnavs_li li span {color:var(--dz-FC-ddd)}
 #dhnavs_li li.mon a {background-color:var(--dz-BG-color);color:var(--dz-FC-fff)}
 
@@ -748,7 +747,7 @@ a.flw_readfull {color: var(--dz-BG-2);}
 .threadlist li.list a {display:block}
 .threadlist_top {height:38px;padding:12px 0 10px}
 .threadlist_top .mimg {float:left;margin-right:8px}
-.threadlist_top .mimg img {float:left;width:38px;line-height:38px;border-radius:50%}
+.threadlist_top .mimg img {float:left;width:38px;height:38px;border-radius:50%}
 .threadlist_top .muser h3 {margin-top:2px;height:20px;line-height:20px}
 .threadlist_top .muser h3 .mmc {font-size:15px}
 .threadlist_top .muser .mtime {display:block;height:18px;line-height:18px;font-size:12px;color:var(--dz-FC-ccc)}
@@ -768,7 +767,7 @@ a.flw_readfull {color: var(--dz-BG-2);}
 .threadlist_imgs1 li img {width:100%;height:100%;object-fit:cover;position:absolute}
 .threadlist_imgs2 li {width:49.45%}
 .threadlist_imgs2 li:nth-child(2n) {margin-right:0}
-.threadlist_foot {padding:5px 0 15px;height:22px;line-height:22px;font-size:13px}
+.threadlist_foot {padding:5px 0 15px;min-height:22px;line-height:22px;font-size:13px}
 .threadlist_foot li {float:left;background-color:var(--dz-BG-5);padding:0 10px;margin:2px 10px 2px 0px;color:var(--dz-FC-aaa);border-radius:4px}
 .threadlist_foot li i {float:left;font-size:14px;margin-right:3px;color:var(--dz-FC-ccc)}
 .threadlist_foot li.mr {float:right;margin-right:0;padding:0;background:none;color:var(--dz-FC-color)}
@@ -860,9 +859,11 @@ body.pg_logging, body.pg_register {background-color:var(--dz-BG-0)}
 .myinfo_list_ico li {float:left;width:50%;box-sizing:border-box}
 .myinfo_list_ico li a {display:block;background-color:var(--dz-BG-body);margin:5px;padding:10px;height:26px;line-height:26px;font-size:14px;overflow:hidden;border-radius:6px}
 .myinfo_list_ico li a i {float:left;width:26px;height:26px;line-height:26px;font-size:14px;text-align:center;margin-right:8px;background-color:var(--dz-BG-4);color:var(--dz-FC-fff);overflow:hidden;border-radius:50%}
-.myinfo_list_ico li:nth-child(2) a i {background-color:var(--dz-BG-2)}
-.myinfo_list_ico li:nth-child(3) a i {background-color:var(--dz-BG-3)}
-.myinfo_list_ico li:nth-child(4) a i {background-color:var(--dz-BG-color)}
+.myinfo_list_ico li:nth-child(5n-4) a i {background-color:var(--dz-BG-4)}
+.myinfo_list_ico li:nth-child(5n-3) a i {background-color:var(--dz-BG-2)}
+.myinfo_list_ico li:nth-child(5n-2) a i {background-color:var(--dz-BG-3)}
+.myinfo_list_ico li:nth-child(5n-1) a i {background-color:var(--dz-BG-color)}
+.myinfo_list_ico li:nth-child(5n) a i {background-color:var(--dz-BG-n)}
 .myinfo_list_ico li a em {color:var(--dz-BG-2);font-size:12px;margin-left:8px}
 .btn_exit, .btn_admincp {padding:5px 15px;overflow:hidden}
 .btn_exit .pn {display:block;background-color:var(--dz-BG-2);color:var(--dz-FC-fff)}
@@ -885,9 +886,9 @@ body.pg_logging, body.pg_register {background-color:var(--dz-BG-0)}
 
 /*----- 通用发布输入框相关 -----*/
 .post_box {background-color:var(--dz-BG-0);overflow:hidden}
-.post_box li.mli {height:30px;line-height:20px;padding:5px 15px;font-size:16px;border-bottom:1px solid var(--dz-BOR-ed);overflow:hidden;position:relative}
+.post_box li.mli {height:30px;line-height:30px;padding:5px 15px;font-size:16px;border-bottom:1px solid var(--dz-BOR-ed);overflow:hidden;position:relative}
 .post_box li.flex-half {padding:5px 0px;}
-.post_box li.mtit {height:36px;line-height:20px;font-size:12px;padding-top:10px;color:var(--dz-FC-999)}
+.post_box li.mtit {height:20px;line-height:20px;font-size:12px;padding-top:10px;color:var(--dz-FC-999)}
 .post_box li.mtext {height:auto;line-height:30px;padding:10px 15px;font-size:16px;border-bottom:1px solid var(--dz-BOR-ed);overflow:hidden}
 .post_box li.mli .input-append {position:absolute;right:15px;color:#495057;font-size:1rem;}
 .post_box .sort_sel {width:100%;background:url('touch/arrow.svg') no-repeat right center;background-size:16px 16px;padding-left:14px;height:30px;line-height:30px;font-size:16px;border:none;color:graytext;appearance:none;-moz-appearance:none;-webkit-appearance:none;overflow:hidden}
@@ -949,8 +950,8 @@ body.pg_logging, body.pg_register {background-color:var(--dz-BG-0)}
 .post_attlist li .minput .price {width: inherit;}
 
 /*----- 帖子内容页 -----*/
-.quote {padding:8px 10px;margin:8px 0;background-color:var(--dz-BG-5);font-size:14px;border-radius:4px}
-.quote a {color:var(--dz-BG-3)}
+.quote, .showhide, .locked {padding:8px 10px;margin:8px 0;background-color:var(--dz-BG-5);font-size:14px;border-radius:4px}
+.quote a, .showhide a, .locked a {color:var(--dz-BG-3)}
 .viewthread {background-color:var(--dz-BG-0);overflow:hidden}
 .viewthread .view_tit {padding:15px 15px 0;line-height:30px;font-size:20px;font-weight:400}
 .viewthread .view_tit span {font-size:12px;color:var(--dz-BG-2)}
@@ -1083,7 +1084,7 @@ body.pg_logging, body.pg_register {background-color:var(--dz-BG-0)}
 .home_feed_item li:first-child .home_feed_time span,.home_feed_item li:first-child .home_feed_time:after{display:none}
 .home_feed_ecs{padding:0px 10px 40px 60px;position:relative}
 .home_feed_ecs .mimg {position: absolute;float:left;margin-right:8px;top:10px;left:10px}
-.home_feed_ecs .mimg img {float:left;width:38px;line-height:38px;border-radius:50%}
+.home_feed_ecs .mimg img {float:left;width:38px;height:38px;border-radius:50%}
 .home_feed_c{border-bottom:1px dashed var(--dz-BOR-ed)}
 .home_feed_c .delete_bt{float:right;margin:-3px -1px 0px 10px;position:static}
 .home_feed_item{padding:0px 0px 1px;color:var(--dz-FC-777);overflow:hidden}
@@ -1126,7 +1127,7 @@ body.pg_logging, body.pg_register {background-color:var(--dz-BG-0)}
 .tfm caption, .tfm th, .tfm td { vertical-align: top; padding: 7px 0; line-height: 28px; }
 .tfm caption h2 { font-size: 16px; }
 .vt th, .vt td { vertical-align: top; }
-.tfm th {padding-right: 5px; width: 118px; }
+.tfm th {padding-right: 5px; width: 70px; }
 .tfm th .rq { float: right; font-size: 14px; }
 .tfm .pt, .tfm .px { width: 97%; line-height: 28px; border:1px solid var(--dz-BOR-ed); }
 .tfm .pt { min-height: 65px; }

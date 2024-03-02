@@ -24,7 +24,7 @@ var calendarrecall = null;
 function loadcalendar() {
 	s = '';
 	s += '<div id="calendar" style="display:none; position:absolute; z-index:100000;" onclick="doane(event)">';
-	s += '<div style="width: 210px;"><table cellspacing="0" cellpadding="0" width="100%" style="text-align: center;">';
+	s += '<div style="width: 260px;"><table cellspacing="0" cellpadding="0" width="100%" style="text-align: center;">';
 	s += '<tr align="center" id="calendar_week"><td onclick="refreshcalendar(yy, mm-1)" title="Tháng trước" style="cursor: pointer;"><a href="javascript:;">&laquo;</a></td><td colspan="5" style="text-align: center"><a href="javascript:;" onclick="showdiv(\'year\');doane(event)" class="dropmenu" title="Bấm để chọn một năm" id="year"></a>&nbsp; - &nbsp;<a id="month" class="dropmenu" title="Bấm để chọn tháng" href="javascript:;" onclick="showdiv(\'month\');doane(event)"></a></td><td onclick="refreshcalendar(yy, mm+1)" title="Tháng tiếp" style="cursor: pointer;"><a href="javascript:;">&raquo;</a></td></tr>';
 	s += '<tr id="calendar_header"><td>CN</td><td>Thứ 2</td><td>Thứ 3</td><td>Thứ 4</td><td>Thứ 5</td><td>Thứ 6</td><td>Thứ 7</td></tr>';
 	for(var i = 0; i < 6; i++) {
@@ -33,8 +33,8 @@ function loadcalendar() {
 			s += "<td id=d" + (i * 7 + j) + " height=\"19\">0</td>";
 		s += "</tr>";
 	}
-	s += '<tr id="hourminute" class="pns"><td colspan="4" align="left"><input type="text" size="1" value="" id="hour" class="px vm" style="width: 16px;margin-right: 5px;" onKeyUp=\'this.value=this.value > 23 ? 23 : zerofill(this.value);controlid.value=controlid.value.replace(/\\d+(\:\\d+)/ig, this.value+"$1")\'>điểm';
-	s += '<span id="fullhourselector"><input type="text" size="1" value="" id="minute" class="px vm" style="width: 16px;margin: 0px 5px;" onKeyUp=\'this.value=this.value > 59 ? 59 : zerofill(this.value);controlid.value=controlid.value.replace(/(\\d+\:)\\d+/ig, "$1"+this.value)\'>điểm</span>';
+	s += '<tr id="hourminute" class="pns"><td colspan="4" align="left"><input type="text" size="1" value="" id="hour" class="px vm" style="width: 40px;margin-right: 5px;" onKeyUp=\'this.value=this.value > 23 ? 23 : zerofill(this.value);controlid.value=controlid.value.replace(/\\d+(\:\\d+)/ig, this.value+"$1")\'>điểm';
+	s += '<span id="fullhourselector"><input type="text" size="1" value="" id="minute" class="px vm" style="width: 40px;margin: 0px 5px;" onKeyUp=\'this.value=this.value > 59 ? 59 : zerofill(this.value);controlid.value=controlid.value.replace(/(\\d+\:)\\d+/ig, "$1"+this.value)\'>điểm</span>';
 	s += '<span id="halfhourselector"><select id="minutehalfhourly" onchange=\'this.value=this.value > 59 ? 59 : zerofill(this.value);controlid.value=controlid.value.replace(/(\\d+\:)\\d+/ig, "$1"+this.value)\'><option value="00">00</option><option value="30">30</option></select>điểm</span>';
 	s += '</td><td align="right" colspan="3"><button class="pn" onclick="confirmcalendar();"><em>Chắc chắn</em></button></td></tr>';
 	s += '</table></div></div>';

@@ -1023,6 +1023,7 @@ $lang = array (
   'diy_template_extension_invalid' => 'Tiêu bản mở rộng tập tin không đúng',
   'diy_template_noexist' => 'Tiêu bản tập tin không tồn tại',
   'topic_title_cannot_be_empty' => 'Có lỗi, Tiêu đề không thể để trống',
+  'topic_has_on_template' => 'Không tìm thấy mẫu chủ đề',
   'topic_name_duplicated' => 'Có lỗi, Tên chủ đề không thể được lặp đi lặp lại',
   'topic_created_failed' => 'Có lỗi, Không thể tạo topic',
   'comment_comment_noexist' => 'Có lỗi, Không có nhận xét về bài viết',

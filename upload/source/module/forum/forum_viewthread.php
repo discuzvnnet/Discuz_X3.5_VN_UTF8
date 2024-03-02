@@ -379,7 +379,7 @@ if($_G['forum_thread']['special'] == 2) {
 }
 
 $onlyauthoradd = $threadplughtml = '';
-
+$postarr = array();
 $maxposition = 0;
 if(empty($_GET['viewpid'])) {
 	if(!in_array($_G['forum_thread']['special'], array(2,3,5))) {
@@ -1088,7 +1088,7 @@ function viewthread_procpost($post, $lastvisit, $ordertype, $maxposition = 0) {
 		$post['newpostanchor'] = '';
 	}
 
-	$post['lastpostanchor'] = ($ordertype != 1 && $_G['forum_numpost'] == $_G['forum_thread']['replies']) || ($ordertype == 1 && $_G['forum_numpost'] == $_G['forum_thread']['replies'] + 2) ? '<a name="lastpost"></a>' : '';
+	$post['lastpostanchor'] = ($ordertype != 1 && $_G['forum_numpost'] == $_G['forum_thread']['replies']) || ($ordertype == 1 && $_G['forum_numpost'] == $_G['forum_thread']['replies'] + 2 && (!$_G['forum_thread']['replies'] || !$post['first'])) ? '<a name="lastpost"></a>' : '';
 
 	if(empty($post['hotrecommended']) && $post['incurpage']) {
 		if($_G['forum_pagebydesc']) {
