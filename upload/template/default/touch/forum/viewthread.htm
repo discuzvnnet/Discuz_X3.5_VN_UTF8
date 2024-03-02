@@ -2,7 +2,7 @@
 <div class="header cl">
 	<div class="mz"><a href="javascript:history.back();"><i class="dm-c-left"></i></a></div>
 	<h2><a href="<!--{if $_GET['fromguid'] == 'hot' && $_G['setting']['guidestatus']}-->forum.php?mod=guide&view=hot&page=$_GET['page']<!--{else}-->forum.php?mod=forumdisplay&fid=$_G['fid']&<!--{eval echo rawurldecode($_GET['extra']);}--><!--{/if}-->"><!--{eval echo strip_tags($_G['forum']['name']) ? strip_tags($_G['forum']['name']) : $_G['forum']['name'];}--></a></h2>
-	<div class="my"><a href="<!--{if $_G['setting']['mobile']['mobilehotthread']}--><!--{if !empty($_G['setting']['grid']['showgrid'])}-->forum.php<!--{else}-->forum.php?mod=guide&view=newthread<!--{/if}--><!--{else}-->forum.php?forumlist=1<!--{/if}-->"><i class="dm-house"></i></a></div>
+	<div class="my"><a href="index.php"><i class="dm-house"></i></a></div>
 </div>
 <!--{hook/viewthread_top_mobile}-->
 <div class="viewthread">
@@ -30,7 +30,7 @@
 				<li class="mtit">
 					<span class="y">
 						<!--{if isset($post['isstick'])}-->
-							<img src ="{IMGDIR}/settop.png" title="{lang replystick}" class="vm" /> {lang from} {$post['number']}{$postnostick}
+							<img src ="{IMGDIR}/settop.png" class="vm" /> {lang from} {$post['number']}{$postnostick}
 						<!--{elseif $post['number'] == -1}-->
 							{lang recommend_post}
 						<!--{else}-->
@@ -44,7 +44,7 @@
 						<!--{if !$post['authorid']}-->
 						<a href="javascript:;">{lang guest} <em>$post['useip']{if $post['port']}:$post['port']{/if}</em></a>
 						<!--{elseif $post['authorid'] && $post['username'] && $post['anonymous']}-->
-						<!--{if $_G['forum']['ismoderator']}--><a href="home.php?mod=space&uid=$post['authorid']">{lang anonymous}</a><!--{else}-->{lang anonymous}<!--{/if}-->
+						<!--{if $_G['forum']['ismoderator']}--><a href="home.php?mod=space&uid=$post['authorid']">{$_G['setting']['anonymoustext']}</a><!--{else}-->{$_G['setting']['anonymoustext']}<!--{/if}-->
 						<!--{else}-->
 						$post['author'] <em>{lang member_deleted}</em>
 						<!--{/if}-->
@@ -209,7 +209,7 @@
 					<!--{elseif $post['status'] & 1}-->
 						<div class="quote">{lang admin_message_single_banned}</div>
 					<!--{/if}-->
-					<!--{if $_G['forum_thread']['price'] > 0 && $_G['forum_thread']['special'] == 0}-->
+					<!--{if $post['first'] && $_G['forum_thread']['price'] > 0 && $_G['forum_thread']['special'] == 0}-->
 						{lang pay_threads}: <strong>$_G['forum_thread']['price'] {$_G['setting']['extcredits'][$_G['setting']['creditstransextra'][1]]['unit']}{$_G['setting']['extcredits'][$_G['setting']['creditstransextra'][1]]['title']} </strong> <a href="forum.php?mod=misc&action=viewpayments&tid=$_G['tid']" >{lang pay_view}</a>
 					<!--{/if}-->
 					<!--{if $post['first'] && $threadsort && $threadsortshow}-->
@@ -395,7 +395,9 @@
 			<!--{hook/viewthread_postfooter_mobile $postcount}-->
 			</ul>
 		</div>
-   </div>
+	</div>
+	<!--{hook/viewthread_postbottom_mobile $postcount}-->
+	<!--{eval $postcount++;}-->
 	<!--{if $post['first']}-->
 		<div class="discuz_x cl"></div>
 		<div class="txtlist cl">
@@ -419,8 +421,6 @@
 		<div class="view_reply cl"><i class="dm-sofa"></i>{lang mobnoreply}</div>
 		<!--{/if}-->
 	<!--{/if}-->
-	<!--{hook/viewthread_postbottom_mobile $postcount}-->
-	<!--{eval $postcount++;}-->
 	<!--{/loop}-->
 </div>
 $multipage
@@ -461,6 +461,6 @@ $multipage
 		return false;
 	});
 </script>
-<a href="javascript:;" title="{lang scrolltop}" class="scrolltop bottom"></a>
+<a href="javascript:;" class="scrolltop bottom"></a>
 <!--{eval $nofooter = true;}-->
 <!--{template common/footer}-->

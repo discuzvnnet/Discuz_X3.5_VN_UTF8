@@ -3,8 +3,8 @@
 $lang = array(
 
 	'other' => 'Khác',
-	'app_connent_ok' => 'Kết nối thành công ',
-	'app_connent_false' => 'Kết nối thất bại',
+	'app_connect_ok' => 'Kết nối thành công ',
+	'app_connect_false' => 'Kết nối thất bại',
 
 	'note_deleteuser' => 'Xóa người dùng',
 	'note_renameuser' => 'Đổi tên người dùng',
