@@ -940,9 +940,13 @@ function setCopy(text, msg) {
 				popup.open(msg, 'alert');
 			}
 		} else {
-			popup.open('Sao chép thất bại', 'alerts');
+			popup.open('Sao chép không thành công', 'alert');
 		}
 	} else {
-		popup.open('Sao chép thất bại', 'alerts');
+		popup.open('Sao chép không thành công', 'alert');
 	}
+}
+
+function copycode(obj) {
+	setCopy(obj.textContent, 'Đã sao chép mã vào bảng nhớ tạm');
 }
