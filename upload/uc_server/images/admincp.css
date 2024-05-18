@@ -6,7 +6,7 @@ Offical Style for UCenter
 /* common */
 *{ word-wrap:break-word; outline:none; }
 body{ background:#FFF; text-align:center; }
-body, td, input, textarea, select, button{ color:#666; font:12px "Lucida Grande", Verdana, Lucida, Helvetica, Arial, 'Simsun', sans-serif; }
+body, td, input, textarea, select, button{ color:#666; font:12px Arial, sans-serif; }
 body, ul, dl, dd, p, h1, h2, h3, h4, h5, h6, form, fieldset { margin:0; padding:0; }
 h1, h2, h3, h4, h5, h6{ font-size:12px; }
 a{ color:#2366A8; text-decoration:none; }
@@ -84,7 +84,7 @@ input.txt:hover, input.txt:focus, textarea:hover, textarea:focus{ border-color:#
 .fixwidth{ width: 100%; }
 	.fixwidthdec{ width:580px; }
 #loginform{ overflow:hidden; margin:90px auto; *padding-top:90px; width:590px; }
-.login{ float:left; margin-top:5px; text-align:right; font:bold 14px Tahoma, 'Simsun', Sans-serif; }
+.login{ float:left; margin-top:5px; text-align:right; font:bold 14px Tahoma, Sans-serif; }
 	.login p{ margin:10px 5px; }
 	.loginbtn{ padding-left:53px; text-align:left; }
 	.login .txt{ width:160px; }
@@ -123,7 +123,7 @@ input.txt:hover, input.txt:focus, textarea:hover, textarea:focus{ border-color:#
 		*+html .tabmenu li a { height: 20px; line-height: 20px; }
 		.tabmenu li a:hover{ text-decoration:none; }
 		.tabmenu .tabcurrent a{ border:1px solid #B5CFD9; border-bottom:1px solid #F2F9FD; background:#F2F9FD; }
-	.tabcontent, .tabcontentcur{ position:absolute; top:22px; *top:21px; z-index:70; padding:10px; width:580px; border:1px solid #CCC; }
+	.tabcontent, .tabcontentcur{ position:absolute; top:22px; *top:21px; z-index:70; padding:10px; width:880px; border:1px solid #CCC; }
 	.tabcontentcur{ border:1px solid #B5CFD9; background:#F2F9FD; }
 	.tabcontent .txt, .tabcontentcur .txt{ margin-right:10px; width:110px; }
 	.tabcontent .btn, .tabcontentcur .btn{ margin-left:5px; }

@@ -106,7 +106,7 @@ REPLACE INTO uc_settings(k, v) VALUES ('censorusername','');
 REPLACE INTO uc_settings(k, v) VALUES ('dateformat','y-n-j');
 REPLACE INTO uc_settings(k, v) VALUES ('doublee','0');
 REPLACE INTO uc_settings(k, v) VALUES ('nextnotetime','0');
-REPLACE INTO uc_settings(k, v) VALUES ('timeoffset','28800');
+REPLACE INTO uc_settings(k, v) VALUES ('timeoffset','25200');
 REPLACE INTO uc_settings(k, v) VALUES ('privatepmthreadlimit','25');
 REPLACE INTO uc_settings(k, v) VALUES ('chatpmthreadlimit','30');
 REPLACE INTO uc_settings(k, v) VALUES ('chatpmmemberlimit','35');
