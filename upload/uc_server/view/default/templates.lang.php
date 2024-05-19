@@ -1,7 +1,7 @@
 <?php
 
 $languages = array(
-	'title'=>'Tiêu đề1',
+	'title'=>'Tiêu đề',
 	'return'=>'Trở lại',
 	'dateline'=>'Thời gian',
 	'delete'=>'Xóa',
