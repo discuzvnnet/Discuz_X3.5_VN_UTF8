@@ -3,7 +3,7 @@
 # Discuz! VN - Diễn Đàn Tiếng Việt để tạo một trang web chuyên nghiệp
 
 [![GitHub version](https://img.shields.io/github/v/release/jaideejung007/discuzth.svg)](https://github.com/discuzvnnet/Discuz_X3.5_VN_UTF8)
-[![download latest release](https://img.shields.io/badge/Discuz!%20X3.5-Download-success.svg)](https://github.com/jaideejung007/discuzth/releases/latest)
+[![download latest release](https://img.shields.io/badge/Discuz!%20X3.5-Download-success.svg)](https://github.com/discuzvnnet/Discuz_X3.5_VN_UTF8/releases/latest)
 
 # Khuyến nghị #
 Discuz! Nó là một nền tảng xây dựng trang web tập trung vào việc xây dựng cộng đồng trực tuyến.
