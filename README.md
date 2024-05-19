@@ -2,7 +2,7 @@
 
 # Discuz! VN - Diễn Đàn Tiếng Việt để tạo một trang web chuyên nghiệp
 
-[![GitHub version](https://img.shields.io/github/v/release/jaideejung007/discuzth.svg)](https://github.com/discuzvnnet/Discuz_X3.5_VN_UTF8)
+[![GitHub version](https://img.shields.io/github/v/release/discuzvnnet/Discuz_X3.5_VN_UTF8.svg)](https://github.com/discuzvnnet/Discuz_X3.5_VN_UTF8)
 [![download latest release](https://img.shields.io/badge/Discuz!%20X3.5-Download-success.svg)](https://github.com/discuzvnnet/Discuz_X3.5_VN_UTF8/releases/latest)
 
 # Khuyến nghị #
