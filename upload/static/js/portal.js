@@ -326,26 +326,6 @@ function blockFavorite(bid){
 	}
 }
 
-function strLenCalc(obj, checklen, maxlen) {
-	var v = obj.value, charlen = 0, maxlen = !maxlen ? 200 : maxlen, curlen = 0, len = strlen(v);
-	for(var i = 0; i < v.length; i++) {
-		if(v.charCodeAt(i) < 0 || v.charCodeAt(i) > 255) {
-			curlen += 2;
-		} else {
-			curlen += 1;
-		}
-	}
-	checklen = $(checklen);
-	if(checklen.style.display == 'none') checklen.style.display = '';
-	if(curlen <= maxlen) {
-		checklen.innerHTML = '<b>'+(curlen)+'</b> ký tự đã được nhập';
-		return true;
-	} else {
-		checklen.innerHTML = 'Vượt quá <b style="color:red">'+(curlen - maxlen)+'</b> ký tự';
-		return false;
-	}
-}
-
 function check_itemdata_lentgh(form) {
 	if(form.title && (!strLenCalc(form.title, "titlechk", form.title.getAttribute('_maxlength')) || !form.title.value)) {
 		form.title.focus();
