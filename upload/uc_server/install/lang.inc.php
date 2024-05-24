@@ -147,7 +147,7 @@ $lang = array(
 	'install_in_processed' => 'Cài đặt ...',
 	'install_succeed' => 'Cài đặt thành công, bấm vào đây để tiếp tục',
 	'copyright' => '&copy; 2001-'.date('Y').' <a href="https://code.dismall.com/" target="_blank">Discuz! Team</a>.',
-	'license' => '
+	'license' => '<div class="license"><h1>Phiên bản tiếng Việt của thỏa thuận cấp phép được áp dụng cho người dùng Việt Nam</h1>
 
 <p>版权所有 (c) 2001-'.date('Y').'，腾讯云计算（北京）有限责任公司(原北京康盛新创科技有限责任公司)保留所有权利。</p>
 
